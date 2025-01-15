@@ -29,3 +29,5 @@ class Cart:
 
     def calculate_total(self):
         return sum(item["product"].price * item["quantity"] for item in self.items)
+    # def calculate_total(self):
+    #     return sum(item["product"].price * item["quantity"] for item in self.items)
